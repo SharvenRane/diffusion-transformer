@@ -1,0 +1,11 @@
+# Default configuration for diffusion-transformer
+backbone: efficientnet_b4
+pretrained: true
+num_classes: 2
+img_size: 224
+batch_size: 32
+num_workers: 4
+lr: 1.0e-4
+weight_decay: 1.0e-2
+epochs: 50
+experiment_name: diffusion-transformer
