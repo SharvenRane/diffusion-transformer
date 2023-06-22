@@ -9,3 +9,5 @@ lr: 1.0e-4
 weight_decay: 1.0e-2
 epochs: 50
 experiment_name: diffusion-transformer
+
+# update 2
