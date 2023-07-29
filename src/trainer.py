@@ -97,3 +97,5 @@ class Trainer:
                     torch.save({"model": self.model.state_dict(), "epoch": epoch},
                                "checkpoints/best.pth")
                     mlflow.log_artifact("checkpoints/best.pth")
+
+# update 6
