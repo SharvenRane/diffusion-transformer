@@ -43,3 +43,5 @@ def build_model(config):
         state = torch.load(config.checkpoint, map_location="cpu")
         model.load_state_dict(state["model"])
     return model
+
+# update 10
